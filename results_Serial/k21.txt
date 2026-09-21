@@ -1,0 +1,166 @@
+
+────────────────────────────────────────────────────────────────────────────────
+  k-mer Serial Genome Comparison  (k=21, reps=5)
+────────────────────────────────────────────────────────────────────────────────
+  Reference : Reference/Escherichia coli str. K-12 substr. MG1655, complete genome.txt
+  Queries   : 10 genome(s)
+  k-mer size: 21
+  Repeats   : 5
+────────────────────────────────────────────────────────────────────────────────
+
+[Step 1] Loading reference genome ...
+         Reference length: 4641652 bp
+         Raw k-mers (ref): 4641632
+         T_IO (ref load): 0.497478 s
+         Unique k-mers (ref): 4562542
+
+[Query 1] Queries/Bacillus subtilis subsp. subtilis str. 168 complete genome.fa
+         Query length    : 4215606 bp
+         Raw k-mers      : 4215586
+         Unique k-mers   : 4167768
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 652 k-mers
+  │  |A ∪ B| (union)        : 8729658 k-mers
+  │  Jaccard similarity      : 0.000075  (0.01%)
+  │
+  │  Median exec time (5 reps): 1.445610 s
+  │  T_IO (last rep)           : 0.307720 s
+  └───────────────────────────────────────────
+
+[Query 2] Queries/E coli Sakai.txt
+         Query length    : 5498578 bp
+         Raw k-mers      : 5498558
+         Unique k-mers   : 5300972
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 3070608 k-mers
+  │  |A ∪ B| (union)        : 6792906 k-mers
+  │  Jaccard similarity      : 0.452032  (45.20%)
+  │
+  │  Median exec time (5 reps): 1.817105 s
+  │  T_IO (last rep)           : 0.397244 s
+  └───────────────────────────────────────────
+
+[Query 3] Queries/Escherichia coli str. K-12 substr. W3110 DNA, complete genome.fa
+         Query length    : 4646332 bp
+         Raw k-mers      : 4646312
+         Unique k-mers   : 4560489
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 3806285 k-mers
+  │  |A ∪ B| (union)        : 5316746 k-mers
+  │  Jaccard similarity      : 0.715905  (71.59%)
+  │
+  │  Median exec time (5 reps): 1.578560 s
+  │  T_IO (last rep)           : 0.228474 s
+  └───────────────────────────────────────────
+
+[Query 4] Queries/Klebsiella pneumoniae subsp. pneumoniae MGH 78578, complete sequence.fa
+         Query length    : 5315120 bp
+         Raw k-mers      : 5315100
+         Unique k-mers   : 5255575
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 101942 k-mers
+  │  |A ∪ B| (union)        : 9716175 k-mers
+  │  Jaccard similarity      : 0.010492  (1.05%)
+  │
+  │  Median exec time (5 reps): 1.757782 s
+  │  T_IO (last rep)           : 0.237815 s
+  └───────────────────────────────────────────
+
+[Query 5] Queries/Mycobacterium tuberculosis H37Rv, complete genome.fa
+         Query length    : 4411532 bp
+         Raw k-mers      : 4411512
+         Unique k-mers   : 4343644
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 324 k-mers
+  │  |A ∪ B| (union)        : 8905862 k-mers
+  │  Jaccard similarity      : 0.000036  (0.00%)
+  │
+  │  Median exec time (5 reps): 1.638977 s
+  │  T_IO (last rep)           : 0.388118 s
+  └───────────────────────────────────────────
+
+[Query 6] Queries/Pseudomonas aeruginosa PAO1, complete genome.fa
+         Query length    : 6264404 bp
+         Raw k-mers      : 6264384
+         Unique k-mers   : 6212635
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 3223 k-mers
+  │  |A ∪ B| (union)        : 10771954 k-mers
+  │  Jaccard similarity      : 0.000299  (0.03%)
+  │
+  │  Median exec time (5 reps): 2.073075 s
+  │  T_IO (last rep)           : 0.403427 s
+  └───────────────────────────────────────────
+
+[Query 7] Queries/Salmonella enterica subsp. enterica serovar Typhimurium str. LT2, complete genome.fa
+         Query length    : 4857450 bp
+         Raw k-mers      : 4857430
+         Unique k-mers   : 4807695
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 147642 k-mers
+  │  |A ∪ B| (union)        : 9222595 k-mers
+  │  Jaccard similarity      : 0.016009  (1.60%)
+  │
+  │  Median exec time (5 reps): 1.670073 s
+  │  T_IO (last rep)           : 0.387207 s
+  └───────────────────────────────────────────
+
+[Query 8] Queries/Shigella flexneri 2a str. 301 chromosome, complete genome.fa
+         Query length    : 4607196 bp
+         Raw k-mers      : 4607176
+         Unique k-mers   : 4281089
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 2423483 k-mers
+  │  |A ∪ B| (union)        : 6420148 k-mers
+  │  Jaccard similarity      : 0.377481  (37.75%)
+  │
+  │  Median exec time (5 reps): 1.526882 s
+  │  T_IO (last rep)           : 0.255777 s
+  └───────────────────────────────────────────
+
+[Query 9] Queries/Staphylococcus aureus subsp. aureus N315, complete sequence.fa
+         Query length    : 2814816 bp
+         Raw k-mers      : 2814796
+         Unique k-mers   : 2753003
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 556 k-mers
+  │  |A ∪ B| (union)        : 7314989 k-mers
+  │  Jaccard similarity      : 0.000076  (0.01%)
+  │
+  │  Median exec time (5 reps): 0.934050 s
+  │  T_IO (last rep)           : 0.185657 s
+  └───────────────────────────────────────────
+
+[Query 10] Queries/Yersinia pestis CO92, complete sequence.fa
+         Query length    : 4653728 bp
+         Raw k-mers      : 4653708
+         Unique k-mers   : 4445303
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 13282 k-mers
+  │  |A ∪ B| (union)        : 8994563 k-mers
+  │  Jaccard similarity      : 0.001477  (0.15%)
+  │
+  │  Median exec time (5 reps): 1.541908 s
+  │  T_IO (last rep)           : 0.379025 s
+  └───────────────────────────────────────────
+
+────────────────────────────────────────────────────────────────────────────────
+  Performance Summary
+────────────────────────────────────────────────────────────────────────────────
+  T_total  (wall clock)  : 81.363749 s
+  T_compute (approx)     : 80.866254 s
+  T_IO      (last query) : 0.379025 s
+  Peak CPU RAM (VmPeak)  : 2235.71 MB
+────────────────────────────────────────────────────────────────────────────────
+
+

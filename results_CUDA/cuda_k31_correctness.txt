@@ -1,0 +1,290 @@
+
+============================================================
+CUDA GPU INFORMATION
+============================================================
+GPU              : Tesla T4
+Compute Capability: 7.5
+SM Count          : 40
+Global Memory     : 14.56 GB
+Max Threads/Block : 1024
+============================================================
+
+============================================================
+CUDA K-MER GENOME COMPARISON
+============================================================
+Reference file     : Reference/Escherichia coli str. K-12 substr. MG1655, complete genome.txt
+Number of queries  : 10
+k                  : 31
+Repetitions        : 1
+Serial total time  : 81.363749 s
+============================================================
+
+Reference sequence length: 4641652 bp
+Reference raw k-mers      : 4641622
+Reference I/O time       : 0.022509 s
+Reference unique k-mers  : 4570839
+Reference GPU time       : 0.043882 s
+
+------------------------------------------------------------
+QUERY 1/10
+File: Queries/Bacillus subtilis subsp. subtilis str. 168 complete genome.fa
+------------------------------------------------------------
+Rep 1/1: 0.112570 s
+
+RESULTS
+Sequence length      : 4215606 bp
+Raw k-mers           : 4215576
+Unique k-mers        : 4170526
+Intersection         : 204
+Union                : 8741161
+Jaccard similarity   : 0.000023
+Jaccard percentage   : 0.0023%
+
+TIMING BREAKDOWN
+Query I/O            : 0.033560 s
+H2D                   : 0.001463 s
+GPU k-mer generation : 0.002716 s
+GPU sort             : 0.007861 s
+GPU unique           : 0.001108 s
+D2H                  : 0.008835 s
+GPU processing       : 0.021982 s
+Median query time    : 0.112570 s
+
+------------------------------------------------------------
+QUERY 2/10
+File: Queries/E coli Sakai.txt
+------------------------------------------------------------
+Rep 1/1: 0.124135 s
+
+RESULTS
+Sequence length      : 5498578 bp
+Raw k-mers           : 5498548
+Unique k-mers        : 5321338
+Intersection         : 2743252
+Union                : 7148925
+Jaccard similarity   : 0.383729
+Jaccard percentage   : 38.3729%
+
+TIMING BREAKDOWN
+Query I/O            : 0.044855 s
+H2D                   : 0.001987 s
+GPU k-mer generation : 0.003520 s
+GPU sort             : 0.009731 s
+GPU unique           : 0.001061 s
+D2H                  : 0.010832 s
+GPU processing       : 0.027131 s
+Median query time    : 0.124135 s
+
+------------------------------------------------------------
+QUERY 3/10
+File: Queries/Escherichia coli str. K-12 substr. W3110 DNA, complete genome.fa
+------------------------------------------------------------
+Rep 1/1: 0.085844 s
+
+RESULTS
+Sequence length      : 4646332 bp
+Raw k-mers           : 4646302
+Unique k-mers        : 4568392
+Intersection         : 3811990
+Union                : 5327241
+Jaccard similarity   : 0.715566
+Jaccard percentage   : 71.5566%
+
+TIMING BREAKDOWN
+Query I/O            : 0.041140 s
+H2D                   : 0.001647 s
+GPU k-mer generation : 0.002980 s
+GPU sort             : 0.008480 s
+GPU unique           : 0.001090 s
+D2H                  : 0.009186 s
+GPU processing       : 0.023384 s
+Median query time    : 0.085844 s
+
+------------------------------------------------------------
+QUERY 4/10
+File: Queries/Klebsiella pneumoniae subsp. pneumoniae MGH 78578, complete sequence.fa
+------------------------------------------------------------
+Rep 1/1: 0.125520 s
+
+RESULTS
+Sequence length      : 5315120 bp
+Raw k-mers           : 5315090
+Unique k-mers        : 5263122
+Intersection         : 52315
+Union                : 9781646
+Jaccard similarity   : 0.005348
+Jaccard percentage   : 0.5348%
+
+TIMING BREAKDOWN
+Query I/O            : 0.044305 s
+H2D                   : 0.001993 s
+GPU k-mer generation : 0.003418 s
+GPU sort             : 0.009453 s
+GPU unique           : 0.001080 s
+D2H                  : 0.010286 s
+GPU processing       : 0.026231 s
+Median query time    : 0.125520 s
+
+------------------------------------------------------------
+QUERY 5/10
+File: Queries/Mycobacterium tuberculosis H37Rv, complete genome.fa
+------------------------------------------------------------
+Rep 1/1: 0.101562 s
+
+RESULTS
+Sequence length      : 4411532 bp
+Raw k-mers           : 4411502
+Unique k-mers        : 4358047
+Intersection         : 103
+Union                : 8928783
+Jaccard similarity   : 0.000012
+Jaccard percentage   : 0.0012%
+
+TIMING BREAKDOWN
+Query I/O            : 0.036084 s
+H2D                   : 0.002064 s
+GPU k-mer generation : 0.002861 s
+GPU sort             : 0.008147 s
+GPU unique           : 0.001099 s
+D2H                  : 0.008629 s
+GPU processing       : 0.022800 s
+Median query time    : 0.101562 s
+
+------------------------------------------------------------
+QUERY 6/10
+File: Queries/Pseudomonas aeruginosa PAO1, complete genome.fa
+------------------------------------------------------------
+Rep 1/1: 0.134241 s
+
+RESULTS
+Sequence length      : 6264404 bp
+Raw k-mers           : 6264374
+Unique k-mers        : 6222731
+Intersection         : 1494
+Union                : 10792076
+Jaccard similarity   : 0.000138
+Jaccard percentage   : 0.0138%
+
+TIMING BREAKDOWN
+Query I/O            : 0.049603 s
+H2D                   : 0.002041 s
+GPU k-mer generation : 0.004057 s
+GPU sort             : 0.010916 s
+GPU unique           : 0.001073 s
+D2H                  : 0.011849 s
+GPU processing       : 0.029935 s
+Median query time    : 0.134241 s
+
+------------------------------------------------------------
+QUERY 7/10
+File: Queries/Salmonella enterica subsp. enterica serovar Typhimurium str. LT2, complete genome.fa
+------------------------------------------------------------
+Rep 1/1: 0.132879 s
+
+RESULTS
+Sequence length      : 4857450 bp
+Raw k-mers           : 4857420
+Unique k-mers        : 4813122
+Intersection         : 77176
+Union                : 9306785
+Jaccard similarity   : 0.008292
+Jaccard percentage   : 0.8292%
+
+TIMING BREAKDOWN
+Query I/O            : 0.042944 s
+H2D                   : 0.002215 s
+GPU k-mer generation : 0.003117 s
+GPU sort             : 0.008765 s
+GPU unique           : 0.001088 s
+D2H                  : 0.009157 s
+GPU processing       : 0.024342 s
+Median query time    : 0.132879 s
+
+------------------------------------------------------------
+QUERY 8/10
+File: Queries/Shigella flexneri 2a str. 301 chromosome, complete genome.fa
+------------------------------------------------------------
+Rep 1/1: 0.113997 s
+
+RESULTS
+Sequence length      : 4607196 bp
+Raw k-mers           : 4607166
+Unique k-mers        : 4293351
+Intersection         : 2184617
+Union                : 6679573
+Jaccard similarity   : 0.327059
+Jaccard percentage   : 32.7059%
+
+TIMING BREAKDOWN
+Query I/O            : 0.042678 s
+H2D                   : 0.001527 s
+GPU k-mer generation : 0.002954 s
+GPU sort             : 0.008378 s
+GPU unique           : 0.001098 s
+D2H                  : 0.008160 s
+GPU processing       : 0.022117 s
+Median query time    : 0.113997 s
+
+------------------------------------------------------------
+QUERY 9/10
+File: Queries/Staphylococcus aureus subsp. aureus N315, complete sequence.fa
+------------------------------------------------------------
+Rep 1/1: 0.072853 s
+
+RESULTS
+Sequence length      : 2814816 bp
+Raw k-mers           : 2814786
+Unique k-mers        : 2759514
+Intersection         : 205
+Union                : 7330148
+Jaccard similarity   : 0.000028
+Jaccard percentage   : 0.0028%
+
+TIMING BREAKDOWN
+Query I/O            : 0.025408 s
+H2D                   : 0.001628 s
+GPU k-mer generation : 0.001838 s
+GPU sort             : 0.005578 s
+GPU unique           : 0.000991 s
+D2H                  : 0.004899 s
+GPU processing       : 0.014935 s
+Median query time    : 0.072853 s
+
+------------------------------------------------------------
+QUERY 10/10
+File: Queries/Yersinia pestis CO92, complete sequence.fa
+------------------------------------------------------------
+Rep 1/1: 0.123910 s
+
+RESULTS
+Sequence length      : 4653728 bp
+Raw k-mers           : 4653698
+Unique k-mers        : 4454749
+Intersection         : 6579
+Union                : 9019009
+Jaccard similarity   : 0.000729
+Jaccard percentage   : 0.0729%
+
+TIMING BREAKDOWN
+Query I/O            : 0.039708 s
+H2D                   : 0.001675 s
+GPU k-mer generation : 0.002984 s
+GPU sort             : 0.008559 s
+GPU unique           : 0.001115 s
+D2H                  : 0.008639 s
+GPU processing       : 0.022972 s
+Median query time    : 0.123910 s
+
+============================================================
+OVERALL CUDA BENCHMARK
+============================================================
+k                  : 31
+Queries processed  : 10
+Repetitions/query  : 1
+Reference I/O      : 0.022509 s
+Total wall time    : 1.553185 s
+Serial total time  : 81.363749 s
+CUDA speedup       : 52.3851x
+============================================================
+
+Benchmark completed successfully.

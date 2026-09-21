@@ -1,0 +1,174 @@
+
+────────────────────────────────────────────────────────────────────────────────
+  k-mer OpenMP Genome Comparison
+  k=31, repetitions=5
+────────────────────────────────────────────────────────────────────────────────
+  Reference : Reference/Escherichia coli str. K-12 substr. MG1655, complete genome.txt
+  Queries   : 10 genome(s)
+  k-mer size: 31
+  Repeats   : 5
+  OpenMP maximum threads : 1
+  Available processors   : 12
+  Actual OpenMP threads  : 1
+  Serial baseline        : 76.327713 s
+────────────────────────────────────────────────────────────────────────────────
+
+[Step 1] Loading reference genome ...
+         Reference length: 4641652 bp
+         Raw k-mers (ref): 4641622
+         T_IO (ref load): 0.525946 s
+         Unique k-mers (ref): 4570839
+
+[Query 1] Queries/Bacillus subtilis subsp. subtilis str. 168 complete genome.fa
+         Query length    : 4215606 bp
+         Raw k-mers      : 4215576
+         Unique k-mers   : 4170526
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 204 k-mers
+  │  |A ∪ B| (union)        : 8741161 k-mers
+  │  Jaccard similarity      : 0.000023 (0.00%)
+  │
+  │  Median OpenMP time (5 reps): 1.382483 s
+  └───────────────────────────────────────────
+
+[Query 2] Queries/E coli Sakai.txt
+         Query length    : 5498578 bp
+         Raw k-mers      : 5498548
+         Unique k-mers   : 5321338
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 2743252 k-mers
+  │  |A ∪ B| (union)        : 7148925 k-mers
+  │  Jaccard similarity      : 0.383729 (38.37%)
+  │
+  │  Median OpenMP time (5 reps): 1.734489 s
+  └───────────────────────────────────────────
+
+[Query 3] Queries/Escherichia coli str. K-12 substr. W3110 DNA, complete genome.fa
+         Query length    : 4646332 bp
+         Raw k-mers      : 4646302
+         Unique k-mers   : 4568392
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 3811990 k-mers
+  │  |A ∪ B| (union)        : 5327241 k-mers
+  │  Jaccard similarity      : 0.715566 (71.56%)
+  │
+  │  Median OpenMP time (5 reps): 1.489084 s
+  └───────────────────────────────────────────
+
+[Query 4] Queries/Klebsiella pneumoniae subsp. pneumoniae MGH 78578, complete sequence.fa
+         Query length    : 5315120 bp
+         Raw k-mers      : 5315090
+         Unique k-mers   : 5263122
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 52315 k-mers
+  │  |A ∪ B| (union)        : 9781646 k-mers
+  │  Jaccard similarity      : 0.005348 (0.53%)
+  │
+  │  Median OpenMP time (5 reps): 1.896717 s
+  └───────────────────────────────────────────
+
+[Query 5] Queries/Mycobacterium tuberculosis H37Rv, complete genome.fa
+         Query length    : 4411532 bp
+         Raw k-mers      : 4411502
+         Unique k-mers   : 4358047
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 103 k-mers
+  │  |A ∪ B| (union)        : 8928783 k-mers
+  │  Jaccard similarity      : 0.000012 (0.00%)
+  │
+  │  Median OpenMP time (5 reps): 1.453882 s
+  └───────────────────────────────────────────
+
+[Query 6] Queries/Pseudomonas aeruginosa PAO1, complete genome.fa
+         Query length    : 6264404 bp
+         Raw k-mers      : 6264374
+         Unique k-mers   : 6222731
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 1494 k-mers
+  │  |A ∪ B| (union)        : 10792076 k-mers
+  │  Jaccard similarity      : 0.000138 (0.01%)
+  │
+  │  Median OpenMP time (5 reps): 2.231638 s
+  └───────────────────────────────────────────
+
+[Query 7] Queries/Salmonella enterica subsp. enterica serovar Typhimurium str. LT2, complete genome.fa
+         Query length    : 4857450 bp
+         Raw k-mers      : 4857420
+         Unique k-mers   : 4813122
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 77176 k-mers
+  │  |A ∪ B| (union)        : 9306785 k-mers
+  │  Jaccard similarity      : 0.008292 (0.83%)
+  │
+  │  Median OpenMP time (5 reps): 1.754843 s
+  └───────────────────────────────────────────
+
+[Query 8] Queries/Shigella flexneri 2a str. 301 chromosome, complete genome.fa
+         Query length    : 4607196 bp
+         Raw k-mers      : 4607166
+         Unique k-mers   : 4293351
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 2184617 k-mers
+  │  |A ∪ B| (union)        : 6679573 k-mers
+  │  Jaccard similarity      : 0.327059 (32.71%)
+  │
+  │  Median OpenMP time (5 reps): 1.654425 s
+  └───────────────────────────────────────────
+
+[Query 9] Queries/Staphylococcus aureus subsp. aureus N315, complete sequence.fa
+         Query length    : 2814816 bp
+         Raw k-mers      : 2814786
+         Unique k-mers   : 2759514
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 205 k-mers
+  │  |A ∪ B| (union)        : 7330148 k-mers
+  │  Jaccard similarity      : 0.000028 (0.00%)
+  │
+  │  Median OpenMP time (5 reps): 0.935146 s
+  └───────────────────────────────────────────
+
+[Query 10] Queries/Yersinia pestis CO92, complete sequence.fa
+         Query length    : 4653728 bp
+         Raw k-mers      : 4653698
+         Unique k-mers   : 4454749
+
+  ┌─ Results ─────────────────────────────────
+  │  |A ∩ B| (intersection) : 6579 k-mers
+  │  |A ∪ B| (union)        : 9019009 k-mers
+  │  Jaccard similarity      : 0.000729 (0.07%)
+  │
+  │  Median OpenMP time (5 reps): 1.723744 s
+  └───────────────────────────────────────────
+
+────────────────────────────────────────────────────────────────────────────────
+  OpenMP Performance Summary
+────────────────────────────────────────────────────────────────────────────────
+  OpenMP threads        : 1
+  Available processors   : 12
+  T_total (wall clock)  : 83.999797 s
+  T_compute (approx)    : 83.306416 s
+  T_IO (reference)      : 0.525946 s
+
+  Parallel Performance
+  ───────────────────────────────────────────
+  Serial time           : 76.327713 s
+  OpenMP time           : 83.999797 s
+  Speedup               : 0.9087x
+  Efficiency            : 0.9087
+  Efficiency            : 90.87%
+
+  Peak CPU RAM (VmPeak) : 2236.70 MB
+────────────────────────────────────────────────────────────────────────────────
+
+  OpenMP implementation completed successfully.
+  Algorithmic results should match the serial version.
+────────────────────────────────────────────────────────────────────────────────
